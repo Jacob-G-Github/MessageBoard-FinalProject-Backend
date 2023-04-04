@@ -1,0 +1,12 @@
+[programs.localnet]
+finalproj2 = "BtrjiGstMFRD7uDRohBc8uXgLeNx8RsP7GpzSGTbRQEV"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "./id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
